@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "499715653891",
+    "firebase_url": "https://research-studio.firebaseio.com",
+    "project_id": "research-studio",
+    "storage_bucket": "research-studio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499715653891:android:2fc334eea851491d",
+        "android_client_info": {
+          "package_name": "com.example.pc.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499715653891-tk7tm7eq9eorjbr90qj746re934i57mu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjx0xZGmip_r34RlgcYuzZvhnU8XSTpNc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

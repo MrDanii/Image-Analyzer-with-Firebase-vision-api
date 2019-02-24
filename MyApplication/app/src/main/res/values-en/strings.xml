@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Image Analyzer</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!-- botones menu -->
+    <string name="analizar">Analize</string>
+    <string name="notificaciones">Notifications</string>
+    <string name="salir">Exit</string>
+
+    <!-- botones menu analizar -->
+    <string name="menu_analizar_identificarObjeto">Objects</string>
+    <string name="menu_analizar_identificarTexto">Text</string>
+    <string name="menu_analizar_identificarCodigoBarra">Barcode</string>
+    <string name="menu_analizar_identificarPuntoReferencia">Face</string>
+</resources>

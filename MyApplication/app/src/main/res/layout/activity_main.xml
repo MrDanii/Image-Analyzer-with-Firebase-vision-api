@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:layout_margin="@dimen/fab_margin"
+            android:textSize="20sp"
+            android:text="''Image Analyzer''" />
+
+        <Button
+            android:id="@+id/boton_analizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/boton_marginHorizontal"
+            android:layout_marginRight="@dimen/boton_marginHorizontal"
+            android:layout_marginTop="@dimen/boton_marginVertical"
+            android:background="@drawable/menu_esilo_boton"
+            android:text="@string/analizar"
+            android:onClick="mostrarMenuAnalizar"/>
+
+        <Button
+            android:id="@+id/boton_notificaciones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/boton_marginHorizontal"
+            android:layout_marginRight="@dimen/boton_marginHorizontal"
+            android:layout_marginTop="@dimen/boton_marginVertical"
+            android:background="@drawable/menu_esilo_boton"
+            android:text="@string/notificaciones"
+            android:onClick="mostrarNotificaciones"/>
+
+        <Button
+            android:id="@+id/boton_salir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/boton_marginHorizontal"
+            android:layout_marginRight="@dimen/boton_marginHorizontal"
+            android:layout_marginTop="@dimen/boton_marginVertical"
+            android:background="@drawable/menu_esilo_boton"
+            android:text="@string/salir"
+            android:onClick="salir"/>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

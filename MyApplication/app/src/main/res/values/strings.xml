@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Analizador de Imagenes</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!-- botones menu -->
+    <string name="analizar">Analizar</string>
+    <string name="notificaciones">Notificaciones</string>
+    <string name="salir">Salir</string>
+    
+    <!-- botones menu analizar -->
+    <string name="menu_analizar_identificarObjeto">Objeto</string>
+    <string name="menu_analizar_identificarTexto">Texto</string>
+    <string name="menu_analizar_identificarCodigoBarra">Codigo</string>
+    <string name="menu_analizar_identificarPuntoReferencia">Rostro</string>
+
+</resources>

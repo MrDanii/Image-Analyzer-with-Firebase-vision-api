@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Medidas botones -->
+    <dimen name="boton_marginHorizontal">32dp</dimen>
+    <dimen name="boton_marginVertical">8dp</dimen>
+    <dimen name="boton_corner">8dp</dimen>
+</resources>
